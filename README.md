@@ -1,3 +1,4 @@
+
 # James Wardle – Personal Website
 
 A clean, professional personal website showcasing DevOps engineering skills and real-world projects. Built with modern web standards and carefully crafted to reflect a natural, human voice.
@@ -21,6 +22,7 @@ A clean, professional personal website showcasing DevOps engineering skills and 
 - Updated all pages to use `.page-content` wrappers for consistency
 - Removed placeholder tone and AI-generated phrasing
 - Configured `hello@jameswardle.me` for both sending and receiving via Gmail
+- Contact form live using Formspree, with redirect to `thanks.html`
 
 ## Project Structure
 
@@ -30,7 +32,8 @@ jameswardle.me/
 ├── about.html              # About page rewritten for natural tone
 ├── experience.html         # CV highlights based on real roles
 ├── projects.html           # Portfolio with project summaries
-├── contact.html            # Contact and working form (pending)
+├── contact.html            # Contact form wired via Formspree
+├── thanks.html             # Custom thank-you redirect page
 ├── assets/
 │   ├── css/
 │   │   └── main.css        # Design system and styling
@@ -49,10 +52,10 @@ jameswardle.me/
 - **Fonts**: Inter (Google Fonts)
 - **Hosting**: GitHub Pages
 - **Email**: DreamHost mailbox, Gmail POP3/SMTP integration
+- **Form Handling**: Formspree with custom redirect
 
 ## Next Steps
 
-- [ ] Enable real contact form (e.g., Formspree or Netlify Forms)
 - [ ] Add PDF download version of new CV
 - [ ] Consider dark mode toggle
 - [ ] Optional analytics and Open Graph meta tags

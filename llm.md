@@ -35,8 +35,16 @@ The user (James Wardle) wanted to create a professional personal website that:
 
 - Rebuilt all supporting pages (`about.html`, `projects.html`, `experience.html`, `contact.html`) to use `.page-content` wrappers
 - Unified design language using Inter font and a teal/neutral colour palette
-- Added new project: **Leaf Spy Analyzer** with external link and modern case-study style
-- Rewrote landing page content to reflect current role, tone, and projects
+- Rewrote landing page to highlight actual skills and latest work
+- Added new project: **Leaf Spy Analyzer** with external link and business context
+- Configured email (`hello@jameswardle.me`) with DreamHost + Gmail via POP3/SMTP
+- Created `thanks.html` custom redirect page for contact form
+
+## Contact Form Setup
+
+- Contact form implemented using Formspree
+- Submissions forwarded to `hello@jameswardle.me`
+- Custom redirect to `thanks.html` avoids Formspree branding
 
 ## New Project Integration
 
@@ -45,12 +53,6 @@ The user (James Wardle) wanted to create a professional personal website that:
 - Real video input → OCR → GPT-4o battery report
 - Built in <20 hours, deployed to production with CI/CD and payment integration
 - 99.5% profit margin validated at £3.99 price point
-
-## Email Configuration
-
-- Domain email (`hello@jameswardle.me`) hosted on DreamHost
-- Configured full mailbox for SMTP + POP3 integration
-- Gmail configured to send and receive via custom domain
 
 ## Content Tone Principles
 
@@ -64,5 +66,5 @@ The user (James Wardle) wanted to create a professional personal website that:
 - [x] Design system applied to all pages
 - [x] Leaf Spy Analyzer added as latest project
 - [x] Email infrastructure connected and usable from Gmail
-- [ ] Contact form wiring (next step)
+- [x] Contact form live with redirect to custom thank-you page
 - [ ] CV downloadable PDF (still in `downloads/`, ready for polish)
