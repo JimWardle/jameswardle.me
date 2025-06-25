@@ -19,58 +19,32 @@
   </header>
   <main>
     <section class="page-content">
-      <h1>Project Showcase</h1>
+      <h1>Selected Projects</h1>
     
-      <section>
-        <h2>Leaf Spy Analyzer – Battery Health SaaS</h2>
-        <p>
-          A professional tool for Nissan Leaf owners to get real battery health reports from Leaf Spy Pro recordings. Built as a full-stack SaaS app in under 20 hours, it processes real videos using FFmpeg and OCR, then generates PDF reports using GPT-4o.
-        </p>
-        <p>
-          Deployed to production on Railway with a full CI/CD pipeline, Stripe integration, and email delivery. Designed to be fast, accurate, and scalable — with real users and a 99.5% profit margin at £3.99 per report.
-          <br>
-          <a href="https://leaf-spy-analyser-production.up.railway.app/" target="_blank" rel="noopener">Visit Leaf Spy Analyzer</a>
-        </p>
+      <section class="project">
+        <h2>Leaf Spy Analyzer</h2>
+        <p>A fast-turnaround SaaS for Nissan Leaf owners. Users upload a Leaf Spy video and receive an AI-generated battery health report, including predicted SOH, warranty risk, degradation stats, and resale impact. Built in under 20 hours using ffmpeg, OpenAI API, and Flask, with Stripe integration and CI/CD to production.</p>
+        <ul>
+          <li>Video OCR → text → structured prompt → GPT-4o → PDF report</li>
+          <li>Live in production with first sales within 2 weeks</li>
+          <li>99.5% profit margin at £3.99 per report</li>
+        </ul>
+        <p><a href="https://leafspy.jameswardle.me" target="_blank">View Leaf Spy Analyzer</a></p>
       </section>
     
-      <section id="supercrumble">
-        <h2>SuperCrumble – Crypto Portfolio Analytics</h2>
-        <p>
-          Built in 48 hours as a performance challenge, SuperCrumble reduced crypto portfolio analysis times from minutes to under a second. Powered by PHP, MySQL, and GitHub Actions, it was designed for speed, accuracy, and ease of deployment.
-        </p>
-        <p>
-          This was a solo sprint from concept to delivery, with a focus on minimal latency, clean UX, and automating routine data handling tasks.
-        </p>
-      </section>
-    
-      <section>
-        <h2>DiceDecider.com – Game Night Helper</h2>
-        <p>
-          A fast, lightweight tool for indecisive board game groups. Pulls live data from the BoardGameGeek API to recommend games based on player count, play time, and mood. Built for fun, but coded cleanly and deployed with care.
-        </p>
-      </section>
-    
-      <section>
-        <h2>Peg It – Weather-Based Laundry Advisor</h2>
-        <p>
-          A simple tool built in one afternoon to help decide whether it’s worth hanging washing out. It interprets weather data into plain advice — sunny, safe, or sack it off. A fun side project grounded in real-life usefulness.
-        </p>
-      </section>
-    
-      <section>
-        <h2>DevOps Improvements (Work Projects)</h2>
-        <p>
-          Various internal improvements across CI/CD, infrastructure, and release processes — including automation of multi-step deployments, environment scaling, and process simplification. These projects are commercial or confidential, but they reflect day-to-day impact in my current roles.
-        </p>
-      </section>
-    
-      <section>
-        <h2>Learning Journey</h2>
-        <p>
-          Always learning — recently focused on Terraform, Docker, and cross-platform DevOps practices. Most experiments stay private, but I document the thinking and code where I can.
-        </p>
+      <section class="project">
+        <h2>CloudFlow Monitoring & Dashboard</h2>
+        <p>A full enterprise solution for monitoring 125+ Microsoft Power Platform environments, visualised in a live React dashboard. Built for Mercury, this system tracks 2,000+ flows across tenants, filters noise intelligently, and syncs data via a fully automated PowerShell-to-Git pipeline.</p>
+        <ul>
+          <li>PowerShell pipeline scanning 17,000+ flows and syncing via Git to production</li>
+          <li>Branded React dashboard with real-time filtering and CSV/XLSX export</li>
+          <li>Azure Static Web Apps deployment with CI/CD and global CDN</li>
+          <li>Zero manual steps — updates run on a schedule and push live automatically</li>
+        </ul>
+        <p><a href="https://calm-sky-0fd9a2403.6.azurestaticapps.net" target="_blank">Live Dashboard</a></p>
       </section>
     </section>
+    
   </main>
   <footer>
     <p>
